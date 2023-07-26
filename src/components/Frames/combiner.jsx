@@ -1,9 +1,8 @@
-// import Nav from "../Layouts/nav/Main.jsx";
 import "./style.css";
 import Home from "./Home/Home.jsx";
 import Achievement from "./Achievement/Achievement.jsx";
 import Project from "./Project/Project.jsx";
-import Resume from "./Mail/Mail.jsx";
+import Mail from "./Mail/Mail.jsx";
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { ParallaxProvider } from "react-scroll-parallax";
@@ -35,7 +34,7 @@ export default function Main() {
         initial="hidden"
         variants={squareVariants}
       >
-        <Resume />
+        <Mail />
       </motion.div>
     </>
   );

@@ -1,4 +1,3 @@
-// import { Outlet,Link } from "react-router-dom"
 import "./nav.css";
 import menu from "../../../assets/menu_bar.svg"
 import cross from "../../../assets/close-circle-svgrepo-com.svg"

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Layout from "./components/Layouts/Main.jsx";
 import Main from "./components/Frames/combiner.jsx"
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Pannellum } from "pannellum-react";
 import night from "./assets/night.jpg"
 import morning from "./assets/morning3.jpg"
@@ -9,17 +8,6 @@ export default function App() {
   const [isBlack,setBlack]=useState(true);
   return (
     <div className="main" style={isBlack?{color:"white"}:{color:"black"}}>
-    {/* <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="/Achievement" element={<Achievement />} />
-            <Route path="/Project" element={<Project />} />
-            <Route path="/Resume" element={<Resume />} />
-        </Route>
-      </Routes>
-    </BrowserRouter> */}
-    
     <Layout mode={isBlack} setMode={setBlack}/>
     <Main/>
       <div className="pana">

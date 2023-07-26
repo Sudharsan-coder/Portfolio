@@ -1,6 +1,5 @@
 import React from 'react'
 import "./Block.css"
-import Lottie from "lottie-react";
 import git_hub from "../../../../assets/Project/github.png"
 export default function Block(prop) {
   return (

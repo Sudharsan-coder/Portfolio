@@ -2,7 +2,7 @@ import Block from "./Block/Block.jsx";
 import "./Project.css";
 import im1 from "../../../assets/Project/v1.jpg";
 import im2 from "../../../assets/Project/v2.png";
-import { ParallaxProvider, useParallax, Parallax } from "react-scroll-parallax";
+import { ParallaxProvider, useParallax} from "react-scroll-parallax";
 
 
 export default function Combiner() {
