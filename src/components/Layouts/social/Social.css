@@ -1,0 +1,28 @@
+.social {
+  position: fixed;
+  left: 0;
+  /* top:40%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+
+  /* background-color: black; */
+}
+.social img {
+  margin-bottom: 10px;
+  width: 35px;
+  cursor: pointer;
+}
+@media (max-width:500px){
+    .social{
+        top: 0px;
+        z-index: 120;
+        height: 40px;
+        width: 77vw;
+        flex-direction: row;
+         padding: 5px 40px;
+        /* align-items: center; */
+         /* background-color: aliceblue;  */
+    }
+}

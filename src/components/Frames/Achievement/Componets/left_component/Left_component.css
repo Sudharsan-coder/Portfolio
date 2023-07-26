@@ -1,0 +1,33 @@
+.left_block{
+    height: 100%;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1rem;
+    /* background-color: aqua; */
+}
+.left_block .achieve{
+    width: 70%;
+    margin: 0px auto;
+}
+.main_container{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+@media (max-width:700px){
+    .left_block{
+        width: 100%;
+        /* height: 80%; */
+        /* background-color: aqua; */
+        padding: 5%;
+    }   
+    .achieve{
+        display: none;
+    }
+}

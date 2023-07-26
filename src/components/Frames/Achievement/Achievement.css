@@ -1,0 +1,26 @@
+.achieve_container {
+  position: relative;
+
+  /* left: 3em; */
+  /* font-family: 'Nunito'; */
+  /* top: 1%;
+    left: 1%; */
+  background-color: rgb(92, 156, 229);
+  border-radius: 35px;
+  width: 90dvw;
+  height: 90dvh;
+  box-sizing: border-box;
+  display: flex;
+  /* margin: 1% 1%; */
+}
+@media (max-width: 700px) {
+  .achieve_container {
+    flex-direction: column;
+  }
+}
+@media (max-width:500px) {
+    .achieve_container{
+        left:0px;
+        width: 100vw;
+    }
+}

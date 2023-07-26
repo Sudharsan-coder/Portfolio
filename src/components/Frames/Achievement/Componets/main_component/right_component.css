@@ -1,0 +1,26 @@
+.right_container{
+    background-color: rgb(228, 241, 255);
+    /* position: absolute;
+    left: 30%;
+    width:70%;
+    top: 0%; */
+    height:100%;
+    width: 70%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:3% 6%;
+    box-sizing: border-box;
+}
+@media (max-width:700px){
+    .right_container{
+        width: 100%;
+    }   
+}
+
+@media (max-width:500px){
+    .right_container{
+        margin-top:5% ;
+    }
+}

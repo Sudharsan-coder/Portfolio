@@ -1,0 +1,75 @@
+.mail_container {
+  margin: 10% auto;
+  /* background-color: black; */
+  width: 90vw;
+  display: flex;
+  /* color: aliceblue; */
+  justify-content: space-between;
+}
+.mail_form {
+  width: 40%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 2% 2%;
+  box-sizing: border-box;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  /* height: 80vh; */
+}
+.mail_form input,
+textarea {
+  border: 2px solid white;
+  width: 95%;
+  background-color: transparent;
+}
+.mail_form textarea {
+  height: 30%;
+  /* color: aliceblue; */
+}
+.mail_form input[type="text"],input[type="email"]{
+  border: 0px;
+  border-bottom: 2px solid white;
+  outline: none;
+  /* background-color: aqua; */
+}
+.mail_form .user_name,.mail_form .user_email{
+  position: relative;
+  top: 20px;
+}
+.mail_form input[type="text"]:focus ~ .user_name{
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+.mail_form input[type="email"]:focus ~ .user_email{
+  transform: translateY(-10px);
+  transition: all 0.5s ease;
+}
+.mail_form input[type="submit"] {
+  width: 100px;
+  border-radius: 20px;
+  margin: 10px auto;
+  color: inherit;
+}
+.mail_container img {
+  width: 45%;
+  height: 55%;
+  margin: 5% auto;
+}
+
+
+@media (max-width:700px){
+  .mail_container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail_container img{
+    width: 80%;
+    height: 5%;
+  }
+  .mail_form{
+    width: 80%;
+  }
+}
