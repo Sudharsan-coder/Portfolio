@@ -21,8 +21,8 @@ body{
   /* background-color: rgb(245, 4, 4); */
   margin: 0;
   padding: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
+  /* background-size: cover;
+  background-repeat: no-repeat; */
 }
 body::-webkit-scrollbar {
   display: none;

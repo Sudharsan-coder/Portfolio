@@ -1,14 +1,9 @@
-.project_main{
-    display: flex;
-    justify-content: flex-end;
-    width: 70vw;
-    height: 85vh;
-    margin: 0 auto;
-}
 .project_container{
-    position: relative;
+    /* position: relative;
     top: 100px;
-    width:100vw;
+    width:100vw; */
+    transform: scale(0.9);
+    display: flex;
 }
 legend{
     margin: 0 auto;

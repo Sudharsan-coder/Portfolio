@@ -37,16 +37,16 @@
   } */
 .frame1 {
   /* background-color: aqua; */
-  width: 100vw;
+  width: 95vw;
   height: 90vh;
   position: relative;
   top: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   font-size: 2em;
   box-sizing: border-box;
-  padding: 5%;
+  /* padding: 5%; */
   /* margin: 10; */
 }
 .frame1_content {
@@ -61,7 +61,7 @@
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 .frame1_content .about_text {
-  font-size: 0.8em;
+  font-size: 0.7em;
   height: 10%;
   /* margin-top: 0%; */
   /* color: white; */

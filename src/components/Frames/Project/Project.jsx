@@ -1,14 +1,12 @@
 import Block from "./Block/Block.jsx";
 import "./Project.css";
-import im1 from "../../../assets/Project/v1.jpg";
+import im1 from "../../../assets/Project/v1-fit.jpg";
 import im2 from "../../../assets/Project/v2.png";
-import { ParallaxProvider, useParallax} from "react-scroll-parallax";
-
-
+import im3 from "../../../assets/Project/v3-fit.jpg";
+import Cards from "./Card/Cards.jsx";
+import { Space } from '@mantine/core';
 export default function Combiner() {
-  const parallax = useParallax({
-    scale: [1, 0.5, "easeInQuad"],
-  });
+ 
   // const layers=[
   //   { image: back1, speed: 15 },
   //   {
@@ -31,26 +29,27 @@ export default function Combiner() {
 
   return (
     <>
-     {/* <div className="parala1"> */}
-      {/*  <ParallaxProvider>
-        <Parallax layers={layers}/>
-      </ParallaxProvider> */}
-      <div className="project_container" id="Project"ref={parallax.ref}>
-      <fieldset className="project_main" >
         <legend>Projects</legend>
-        <Block
+      <div className="project_container" id="Project" >
+        <Cards
           number={1}
           image={im1}
+          date={"Jun 2022"}
           content="It is an optical character recognition project,specially created for the visually impaired. We have created an application, which can capture an image and extract the text from it and that texts are finally delivered though a voice message."
         />
-        <Block number={2}
+        <Space w="md" />
+        <Cards number={2}
           image={im2}
+          date={"Dec 2022"}
           content="This version 2 is focused on the obstacle detection and warning the visually impaired by a voice signal, to achieve this we are implementing the concepts of object detection and distance estimation in deep learning."
         />
-        <Block number={3} />
-        </fieldset>
+        <Space w="md" />
+        <Cards number={3} 
+          date={"Jun 2023"}
+          image={im3}
+        content="This project empowers the visually impaired by employing a trained model to identify obstacles and people. The model gauges proximity and threat levels, facilitating independent navigation and enhancing safety for individuals who are blind."
+        />
       </div>
-     {/* </div> */}
     </>
   );
 }

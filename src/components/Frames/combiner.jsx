@@ -24,10 +24,10 @@ export default function Main() {
   return (
     <>
       <Home />
-      <Achievement />
       <ParallaxProvider>
-      <Project />
+      <Achievement />
       </ParallaxProvider>
+      <Project />
       <motion.div
         ref={view_ref}
         animate={controler}
