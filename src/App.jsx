@@ -13,9 +13,9 @@ export default function App() {
             >
                 <Layout mode={isBlack} setMode={setBlack} />
                 <Main />
-                <div className="background-frame">
+                {/* <div className="background-frame">
                     <img src=".\src\assets\circuit.jpg" alt="black" />
-                </div>
+                </div> */}
             </div>
         </MantineProvider>
     );

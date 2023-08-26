@@ -1,4 +1,5 @@
 #root {
+  background: linear-gradient(89deg,  rgba(34, 87, 187, 1) 0%, rgba(41, 135, 170, 1) 49%, rgba(43, 159, 173, 1) 100%, rgba(43, 159, 173, 1) 100%);
   /* margin: auto;
   padding: 30px; */
   /* display: flex;
@@ -18,7 +19,6 @@ html{
 }
 body{
   /* color: aliceblue; */
-  /* background-color: rgb(245, 4, 4); */
   margin: 0;
   padding: 0;
   /* background-size: cover;
