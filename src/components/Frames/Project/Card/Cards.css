@@ -2,3 +2,11 @@
     text-decoration: none;
     text-align: center;
 }
+/* .card{
+    padding: 10px;
+} */
+.card img{
+    /* padding:10px; */
+    margin-left: 1em;
+    margin-top: 0.5em;
+}

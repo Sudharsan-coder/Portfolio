@@ -14,15 +14,15 @@
   width: 35px;
   cursor: pointer;
 }
-@media (max-width:500px){
-    .social{
-        top: 0px;
-        z-index: 120;
-        height: 40px;
-        width: 77vw;
-        flex-direction: row;
-         padding: 5px 40px;
-        /* align-items: center; */
-         /* background-color: aliceblue;  */
-    }
+@media (max-width: 500px) {
+  .social {
+    top: 0px;
+    z-index: 120;
+    height: 40px;
+    width: 97vw;
+    flex-direction: row;
+    padding: 5px 40px;
+    /* align-items: center; */
+    /* background-color: aliceblue;  */
+  }
 }

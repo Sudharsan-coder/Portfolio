@@ -197,3 +197,14 @@ input:checked + .black_slider:before{
   }
 }
 
+@media (max-width: 500px){
+  .switch_black{
+    display:none
+  }
+  .switch_white{
+    display:none
+  }
+  .nav{
+    width:100vw;
+  }
+}
