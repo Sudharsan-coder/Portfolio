@@ -1,13 +1,10 @@
 .social {
   position: fixed;
   left: 0;
-  /* top:40%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
-
-  /* background-color: black; */
 }
 .social img {
   margin-bottom: 10px;
@@ -22,7 +19,5 @@
     width: 97vw;
     flex-direction: row;
     padding: 5px 40px;
-    /* align-items: center; */
-    /* background-color: aliceblue;  */
   }
 }

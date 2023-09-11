@@ -1,11 +1,10 @@
 import React from "react";
 import "./Mail.css";
 import emailjs from "emailjs-com";
-import mail_box from "../../../assets/Mail/mail_box.gif"
+import mail_box from "../../../assets/Mail/mail_box.gif";
 export default function Combiner() {
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         "service_vuguip4",
@@ -26,7 +25,7 @@ export default function Combiner() {
   return (
     <>
       <div className="mail_container" id="Contact">
-        <img src={mail_box}/>
+        <img src={mail_box} />
         <form onSubmit={sendEmail} className="mail_form">
           <input type="submit" value="Send" />
           <textarea name="message" />
@@ -36,7 +35,7 @@ export default function Combiner() {
           <input type="text" name="user_name" />
           <label className="user_name">Name</label>
         </form>
-        </div>
+      </div>
     </>
   );
 }
