@@ -2,3 +2,7 @@
     text-decoration: none;
     text-align: center;
 }
+.card img{
+    margin-left: 1em;
+    margin-top: 0.5em;
+}

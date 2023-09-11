@@ -10,7 +10,6 @@ export default function Nav({mode,setMode}) {
       .getElementById(item)
       .scrollIntoView({ behavior: "smooth", block: "start" });
   }
-
   const nav_links=[
     <a key={1}
     onClick={(event) => handleClick(event, "Achievement")}
@@ -38,7 +37,7 @@ export default function Nav({mode,setMode}) {
   return (
     <>
       <div className="nav">
-        <a onClick={(event) => handleClick(event, "Home")}>Logo</a>
+        <a onClick={(event) => handleClick(event, "Home")}>Home</a>
         <div className="nav_links">
           {nav_links}
         </div>

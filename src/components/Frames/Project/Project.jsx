@@ -1,36 +1,14 @@
-import Block from "./Block/Block.jsx";
 import "./Project.css";
 import im1 from "../../../assets/Project/v1-fit.jpg";
 import im2 from "../../../assets/Project/v2.png";
 import im3 from "../../../assets/Project/v3-fit.jpg";
 import Cards from "./Card/Cards.jsx";
-import { Space } from '@mantine/core';
+import { Space } from "@mantine/core";
 export default function Combiner() {
- 
-  // const layers=[
-  //   { image: back1, speed: 15 },
-  //   {
-  //     props:{
-  //     className:"image_para"},
-  //     speed: 5,
-  //     children: (
-  //       <div className="project_main">
-  //         <Block
-  //           number={1}
-  //           image={im1}
-  //           content="It is an optical character recognition project, which is specially created for the visually impaired, which uses the concept of deep learning. We have created an application, which can capture an image and extract the text from it and that texts are finally delivered though a voice message."
-  //         />
-  //         <Block number={2} />
-  //         <Block number={3} />
-  //       </div>
-  //     ),
-  //   },
-  // ]
-
   return (
     <>
-        <legend>Projects</legend>
-      <div className="project_container" id="Project" >
+      <legend>Projects</legend>
+      <div className="project_container" id="Project">
         <Cards
           number={1}
           image={im1}
@@ -38,16 +16,18 @@ export default function Combiner() {
           content="It is an optical character recognition project,specially created for the visually impaired. We have created an application, which can capture an image and extract the text from it and that texts are finally delivered though a voice message."
         />
         <Space w="md" />
-        <Cards number={2}
+        <Cards
+          number={2}
           image={im2}
           date={"Dec 2022"}
           content="This version 2 is focused on the obstacle detection and warning the visually impaired by a voice signal, to achieve this we are implementing the concepts of object detection and distance estimation in deep learning."
         />
         <Space w="md" />
-        <Cards number={3} 
+        <Cards
+          number={3}
           date={"Jun 2023"}
           image={im3}
-        content="This project empowers the visually impaired by employing a trained model to identify obstacles and people. The model gauges proximity and threat levels, facilitating independent navigation and enhancing safety for individuals who are blind."
+          content="This project empowers the visually impaired by employing a trained model to identify obstacles and people. The model gauges proximity and threat levels, facilitating independent navigation and enhancing safety for individuals who are blind."
         />
       </div>
     </>

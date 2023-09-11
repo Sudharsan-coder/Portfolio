@@ -1,4 +1,3 @@
-import "./style.css";
 import Home from "./Home/Home.jsx";
 import Achievement from "./Achievement/Achievement.jsx";
 import Project from "./Project/Project.jsx";

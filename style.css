@@ -1,47 +1,50 @@
 #root {
-  background: linear-gradient(89deg,  rgba(34, 87, 187, 1) 0%, rgba(41, 135, 170, 1) 49%, rgba(43, 159, 173, 1) 100%, rgba(43, 159, 173, 1) 100%);
-  /* margin: auto;
-  padding: 30px; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: flex-end; */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 229, 255, 1) 0%,
+    rgba(7, 168, 187, 1) 51%,
+    rgba(7, 103, 187, 1) 100%,
+    rgba(7, 139, 187, 1) 101%
+  );
   position: absolute;
   width: fit-content;
   height: auto;
-  /* font-family:Arial, Helvetica, sans-serif; */
 }
-html{
+html {
   font-size: 16px;
 }
-*{
-  font-family: 'Bungee';
+* {
+  font-family: "Bungee";
   width: fit-content;
 }
-body{
-  /* color: aliceblue; */
+body {
   margin: 0;
   padding: 0;
-  /* background-size: cover;
-  background-repeat: no-repeat; */
 }
 body::-webkit-scrollbar {
   display: none;
 }
-@media (max-width:700px){
-  html{
+@media (max-width: 700px) {
+  html {
     font-size: 14px;
   }
 }
-@media (max-width:500px){
-  html{
+@media (max-width: 500px) {
+  html {
     font-size: 12px;
   }
-  #root{
-  background: linear-gradient(89deg,  rgba(34, 87, 187, 1) 0%, rgba(41, 135, 170, 1) 49%, rgba(43, 159, 173, 1) 100%, rgba(43, 159, 173, 1) 100%);
+  #root {
+    background: linear-gradient(
+      89deg,
+      rgba(34, 87, 187, 1) 0%,
+      rgba(41, 135, 170, 1) 49%,
+      rgba(43, 159, 173, 1) 100%,
+      rgba(43, 159, 173, 1) 100%
+    );
   }
 }
-@media (max-width:300px){
-  html{
+@media (max-width: 300px) {
+  html {
     font-size: 10px;
   }
 }
