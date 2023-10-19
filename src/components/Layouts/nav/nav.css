@@ -5,12 +5,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85vw;
+  width: 95vw;
   backdrop-filter: blur(20px);
   border-radius: 50px;
   padding: 5px 40px;
   height: 40px;
-  margin-left: 2%;
+  /* margin-left: 2%; */
   z-index: 99;
 }
 .nav input[type="checkbox"] {
@@ -163,7 +163,7 @@ input:checked + .black_slider:before {
 
 @media (max-width: 700px) {
   .nav_links,
-  .switch_whtie,
+  .switch_white,
   .switch_black {
     display: none;
   }

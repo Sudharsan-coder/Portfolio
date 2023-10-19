@@ -7,8 +7,8 @@ import { Space } from "@mantine/core";
 export default function Combiner() {
   return (
     <>
-      <legend>Projects</legend>
-      <div className="project_container" id="Project">
+      <legend id="Project">Projects</legend>
+      <div className="project_container" >
         <Cards
           number={1}
           image={im1}
